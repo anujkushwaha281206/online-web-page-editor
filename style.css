@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f0f0;
+}
+.codeeditor {
+    width: 100%;
+    height: 5vh;
+    align-self: center;
+    text-align: center;
+    background-color: #0ef169;
+    font-weight: bold;
+}
+.editor {
+    display: flex;
+    background: #000057;
+    width: 100%;
+    height: calc(100vh - 5vh - 5vh);
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: start;
+}
+.left , .right{
+   padding: 1%;
+    width: 50%;
+    height: 100%;
+    font-size: 1.5rem;
+}
+div div div div i{
+    color: white;
+    font-size: 1.5rem;
+    padding: 1%;
+
+}
+textarea {
+    width: 100%;
+    height: 20.33vh;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    resize: none;
+}
+div div div div {
+    padding-top: 1rem;
+}
+iframe{
+    width: 100%;
+    height: 75.99vh;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+footer {
+    width: 100%;
+    height: 5vh;
+    background-color: #0ef169;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
